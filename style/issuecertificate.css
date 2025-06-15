@@ -1,0 +1,97 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: #f2f2f2; */
+    
+}
+
+nav{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: right;
+    margin-top: 30px;
+    align-items: center;
+    margin: -5px -10px;
+    background-color: #f2f2f2;
+
+    /* text-align: center; */
+    /* background-color: red; */
+}
+a{
+    text-decoration: none;
+}
+.frame{
+    background-color:#f2f2f2;
+    margin: -20px -10px;
+    
+}
+.home a{
+    float: right;
+    padding-top: 6px;
+    color: black;
+    /* border: 1px solid;  */
+    margin-right: 10px;
+}
+.issuecertificate a{ 
+    background-color: #1e91fe;
+    padding: 10px 1px;
+    margin-right: 4px;
+    float: right;
+    color: white;
+    border-radius: 2px;
+}
+.issue-certificate{
+    /* border: 1px solid ; */
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    background-color: #f2f2f2;
+}
+.issue-certificate form{
+    /* border: 1px light; */
+    width: 1020px;
+    height: 550px;
+    background-color:#f9f9f8;
+    border-radius: 4px;
+
+}
+.p1{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.p2{
+    color: black;
+    font-weight: none;
+    font-size: 24px;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+table{
+    margin-left: 50px;
+    margin-top: -18px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+select{
+    width: 388px ;
+    height:30px ;
+    margin-bottom: 15px;
+}
+.text{
+    width: 380px ;
+    height:30px ;
+    margin-bottom: 15px;
+}
+.date{
+    width: 382px ;
+    height:30px ;
+    margin-bottom: 15px;
+}
+.issue-btn{
+    margin-left: 52px;
+    background-color: #0dcbf1;
+    border: none;
+    padding: 10px 12px;
+    border-radius: 5px;
+}
